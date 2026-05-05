@@ -2,17 +2,21 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Senac - Cadastro de Cursos</title>
 </head>
 <body>
-    <h1>Cadastro do Curso</h1>
+    <h1>Cadastrar Novo Curso</h1>
     <form action="/cursos" method="POST">
-        Curso: <input type="text" name="curso" id="curso"><br><br>
-        Carga Horária: <input type="text" name="ch" id="ch"><br><br>
-        Tipo: <input type="text" name="tipo" id="tipo"><br><br>   
-        <input type="submit" value="Enviar">  
+        <label>Nome do Curso:</label><br>
+        <input type="text" name="curso" required><br><br>
+        
+        <label>Carga Horária:</label><br>
+        <input type="number" name="ch" required><br><br>
+        
+        <label>Tipo (EAD/Presencial):</label><br>
+        <input type="text" name="tipo" required><br><br>
+        
+        <button type="submit">Finalizar Cadastro</button>
     </form>
-    
 </body>
 </html>

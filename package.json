@@ -2,24 +2,24 @@
   "name": "backendweb",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
- "scripts": {
-  "start": "node server",
-  "dev": "nodemon server"
-},
+  "keywords": [],
+  "homepage": "https://github.com/Rafael-Manna/BackEndWeb#readme",
+  "bugs": {
+    "url": "https://github.com/Rafael-Manna/BackEndWeb/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rafael-Manna/BackEndWeb.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "Rafael Manna",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Rafael-Manna/BackEndWeb/issues"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "homepage": "https://github.com/Rafael-Manna/BackEndWeb#readme",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }
